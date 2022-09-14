@@ -44,13 +44,9 @@
   font-style: normal;
 }
 
-.header_link {
+.header__link {
   text-decoration: none;
   color: #2f80ed;
-}
-
-.header_link:hover {
-  text-decoration: underline;
 }
 
 /*.header__link {
@@ -85,7 +81,7 @@
   height: 32px;
 }
 
-.logo__place-header {
+.logo__place_header {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -179,7 +175,7 @@
 }
 
 .table {
-  margin: 0 0 100px 0;
+  margin: 0 auto 100px auto;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
@@ -201,13 +197,13 @@
   font-weight: 600;
 }
 
-.text {
+/*.text {
   line-height: 1.2;
   font-size: 18px;
   margin-bottom: 0;
   font-weight: normal;
   margin-top: 20px;
-}
+} */
 
 .table__text {
   line-height: 1.2;
@@ -234,7 +230,7 @@
   background-color: #f2f2f2;
 }
 
-.feynman_title {
+.feynman__title {
   margin: 0;
   margin-top: 100px;
   text-align: center;
@@ -244,7 +240,7 @@
   width: 648px;
 }
 
-.feynman_subtitle {
+.feynman__subtitle {
   margin: 0;
   text-align: center;
   line-height: 51px;
@@ -255,7 +251,7 @@
   margin-right: auto;
 }
 
-.feynman_link {
+.feynman__link {
   position: absolute;
   align-self: stretch;
   font-weight: normal;
@@ -267,10 +263,6 @@
   color: #2f80ed;
 }
 
-.feynman_link:hover {
-  text-decoration: underline;
-}
-
 /*секция кауфман education principles*/
 
 .kaufman {
@@ -280,10 +272,7 @@
   padding-top: 90px;
   padding-bottom: 90px;
   overflow: hidden;
-}
-
-.kaufman_theme_white {
-  color: white;
+  z-index: 1;
 }
 
 .kaufman__triangle {
@@ -292,7 +281,7 @@
   height: 877px;
   right: -210px;
   top: 0;
-  z-index: 1;
+  z-index: -1;
   background-image: url(../images/kaufman-triangle.svg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -306,7 +295,7 @@
   color: white;
 }
 
-.kaufman-table {
+.table_theme_dark {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -345,23 +334,18 @@
 .footer {
   padding-top: 60px;
   padding-bottom: 40px;
-  padding-left: auto;
-  padding-right: auto;
   background-color: #1f1f1f;
   color: white;
   min-height: 350px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex-basis: 711px;
-}
+  box-sizing: border-box;
+  }
 
 .footer__column {
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
   }
 
 .footer__columns {
@@ -376,23 +360,22 @@
 
 .logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
-  left: 0;
-  top: 0;
 }
 
 .footer__column_content_copyright {
-  flex-shrink: 1;
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
 }
 
 .footer__author {
   line-height: 25px;
   font-size: 18px;
-  width: normal;
+  font-style: normal;
   margin-bottom: 18px;
   margin-top: 18px;
-  bottom: 0;
-  left: 0;
-  position: absolute;
   }
 
 .footer__social-icon {
@@ -403,16 +386,12 @@
   margin-right: 10px;
 }
 
-.footer__column_content-social {
-  flex-shrink: 2;
-  margin-left: auto;
-  margin-right:auto;
+.footer__column_content_social {
+
 }
 
-.footer__column_content-info {
-  flex-shrink: 1.5;
-  margin-left: auto;
-  margin-right: auto;
+ .footer__column_content_info {
+
 }
 
 .footer__column-heading {
