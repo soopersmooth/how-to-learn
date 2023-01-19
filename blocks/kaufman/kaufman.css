@@ -1,0 +1,33 @@
+.kaufman {
+  margin: 0;
+  position: relative;
+  background-color: #1f1f1f;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.kaufman-triangle {
+  position: absolute;
+  width: 877px;
+  height: 877px;
+  right: -210px;
+  top: 0;
+  z-index: -1;
+  background-image: url(/images/kaufman-triangle.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
