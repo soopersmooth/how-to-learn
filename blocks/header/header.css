@@ -10,66 +10,9 @@
   /* ограничения для шапки */
 }
 
-.header__title {
-  margin: 0 0 0 64px;
-  padding: 0;
-  max-width: 730px;
-  z-index: 2;
-  line-height: 96px;
-  font-size: 102px;
-  font-weight: 600;
-}
-
-.header__subtitle {
-  width: 388px;
-  position: absolute;
-  bottom: 30px;
-  left: 64px;
-  z-index: 2;
-  margin: 0;
-  padding: 0;
-  line-height: 25px;
-  font-size: 18px;
-  font-style: normal;
-}
-
-.header__link {
-  text-decoration: none;
-  color: #2f80ed;
-}
-
 /*.header__link {
   text-decoration: none;
   color: #2f80ed;
   margin: 0;
   padding: 0;
 } */
-
-.header__main-illustration {
-  position: absolute;
-  width: 765px;
-  height: 608px;
-    bottom: 0;
-  right: 0;
-  z-index: 1;
-}
-
-/* синий квадрат верещинского */
-.header__square-pic {
-  position: absolute;
-  background-color: #2f80ed;
-  height: 568px;
-  width: 568px;
-  color: #2f80ed;
-  top: 64px;
-  right: 0;
-  }
-
-  
-
-  .logo_place_header {
-    position: absolute;
-    top: 30px;
-    left: 64px;
-    z-index: 2;
-    }
