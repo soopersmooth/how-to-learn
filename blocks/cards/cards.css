@@ -1,0 +1,22 @@
+/*.cards {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: flex-start;
+  margin:
+  border: 1px solid red;
+  padding: 0px 100px;
+
+}
+*/
+
+.cards {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 240px);
+  grid-row-gap: 60px;
+  grid-column-gap: 100px;
+  width: 80%;
+}

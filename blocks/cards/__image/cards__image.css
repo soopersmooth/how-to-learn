@@ -1,0 +1,9 @@
+.cards__image {
+  display: flex;
+  width: 160px;
+  height: 160px;
+  z-index: 1;
+  margin: 0px 40px 43px 40px;
+  border-radius: 100px;
+
+}

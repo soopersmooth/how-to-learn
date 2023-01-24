@@ -1,0 +1,6 @@
+.video {
+  display: flex;
+  align-items: center;
+  height: 432px;
+  flex-direction: column;
+}
