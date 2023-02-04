@@ -1,3 +1,16 @@
 # how-to-learn
 How to learn
-[README.md](https://github.com/soopersmooth/how-to-learn/files/10608515/README.md)
+
+# Описание проекта
+
+Проект на чистом css+html.
+
+Использовал:
+
+Позиционирование элементов, анимации, iframe, keyframe, БЭМ nested.
+
+В планах на дальнейшие улучшения:
+1) привести код в порядок, убрать все лишние закомментированные строки.
+
+
+by Maksim Vereschinsky, Feb 2023

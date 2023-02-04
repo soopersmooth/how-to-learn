@@ -3,6 +3,7 @@
   font-size: 30px;
   height: 100%;
   color: #2f80ed;
+  text-decoration: none;
 }
 
 .khan__buy-link:hover {
