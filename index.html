@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="pages/index.css">
 </head>
 
 <body class="page">
   <header class="header">
-    <img class="header__logo" src="./images/logo_place_header.svg" alt="Логотип Яндекс.Практикума">
-    <h1 class="header__title">Научится учиться</h1>
+    <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Логотип Яндекс.Практикума">
+    <h1 class="header__title">Научиться учиться</h1>
 
     <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a href="#" class="header__link">Узнать →</a>
     </p>
@@ -75,14 +75,10 @@
     <h3 class="section-subtitle">Для тех, кто любит прокрастинировать</h3>
 
     <div class="video__iframes">
-      <div class="video__iframe">
         <iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </div>
-
-      <div class="video__iframe">
         <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </div>
     </div>
+
   </section>
 
   <section class="oakley">
@@ -146,8 +142,8 @@
       <p class="khan__author">Салман Хан</p>
       <h2 class="khan__title">Весь мир — школа</h2>
       <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу "Весь мир — школа" нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере, жизни.</p>
-      <p class="khan__quote-author">Джордж Лукас</p>
-      <p class="khan__quote-auhtor-subline">Кинорежиссёр, продюсер</p>
+      <h3 class="khan__quote-author">Джордж Лукас</h3>
+      <p class="khan__quote-author-subline">Кинорежиссёр, продюсер</p>
       <div class="khan__book-container">
         <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Книга Сала Хана">
         <a class="khan__buy-link" href="#">Купить книгу →</a>
@@ -201,7 +197,7 @@
         <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
       </li>
     </ul>
-    <div class="kaufman-triangle rotation"></div>
+    <div class="kaufman__triangle rotation"></div>
   </section>
 
   <section class="resources">
@@ -215,11 +211,12 @@
         <img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Н1-ресурс">
       </a>
       <a href="#">
-        <img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Полка-ресурс">
-      </a>
-      <a href="#">
         <img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Стрелка-ресурс">
       </a>
+      <a href="#">
+        <img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Полка-ресурс">
+      </a>
+
     </div>
 
   </section>
@@ -227,13 +224,13 @@
 </main>
 
  <footer class="footer">
-  <div class="footer-columns">
-    <div class="footer__column footer__column_content_copyright">
-      <div class="footer__logo"></div>
+  <div class="footer__columns">
+    <div class="footer__column_content_copyright">
+      <div class="logo logo_place_footer"></div>
       <p class="footer__author">© 2022, Максим Верещинский</p>
     </div>
-    <div class="footer__column footer__column_content-info">
-      <h4 class="footer__column-heading">О Практикуме</h4>
+    <div class="footer__column_content_info">
+      <h2 class="footer__column-heading">О Практикуме</h2>
       <nav>
         <ul class="footer__column-links">
           <li> <a class="footer__column-link" href="#">Главная</a></li>
@@ -242,8 +239,8 @@
         </ul>
       </nav>
     </div>
-    <div class="footer__column footer__column_content_social">
-      <h4 class="footer__column-heading">Соцсети</h4>
+    <div class="footer__column_content_social">
+      <h2 class="footer__column-heading">Соцсети</h2>
       <ul class="footer__column-links">
         <li><a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Фейсбук">Facebook</a></li>
         <li><a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Вконтакте">ВКонтакте</a></li>
