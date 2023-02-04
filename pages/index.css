@@ -1,4 +1,7 @@
+@import url(../vendor/normalize.css);
+
 @import url(../blocks/page/page.css);
+
 
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
@@ -88,5 +91,3 @@
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 
 @import url(../blocks/rotation/rotation.css);
-
-@import url(../pages/page.css);
